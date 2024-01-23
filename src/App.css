@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.toolbar-list{
+  display: flex;
+  flex-direction: column;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+}
+/* *{
+  border: 1px solid red ;
+  box-sizing: border-box;
+} */
+.navbar {
+  background-color: #001F3F;
+  color: white;
+  width: 20%;
+  /* padding:10px;
+ 
+  position: fixed;
+  overflow-y: auto;  */
+  height: 100vh; 
+
+}
+
+.main-section {
+  width: 80%;
+  /* margin-left: 30%;
+  padding: 20px; */
+  background-color: #bbbbbb;
+  height: 100vh;
+}
+
+.items-list{
+  display: flex;
+  flex-direction: row;
+}
